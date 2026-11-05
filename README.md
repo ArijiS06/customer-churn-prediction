@@ -6,7 +6,7 @@
 
 This project applies machine learning to predict customer churn in the telecommunications industry. Using a dataset containing 7,043 customer records, I analysed customer behaviour, developed predictive classification models and investigated how churn risk estimates could support customer retention decisions.
 
-The project demonstrates an end-to-end data science workflow, combining data cleaning, exploratory analysis, feature engineering, machine learning and business analytics.
+The project demonstrates an end to end data science workflow, combining data cleaning, exploratory analysis, feature engineering, machine learning and business analytics.
 
 ## Business Problem
 
@@ -35,15 +35,15 @@ Analysed churn patterns across customer tenure, contract types, internet service
 
 **3. Machine Learning**
 
-Developed Logistic Regression and Random Forest classification pipelines using categorical encoding, numerical scaling and an 80/20 training-test split.
+Developed Logistic Regression and Random Forest classification pipelines using categorical encoding, numerical scaling and an 80/20 training test split.
 
 **4. Model Evaluation**
 
-Compared models using five-fold cross-validation, measuring ROC-AUC, recall and precision.
+Compared models using five fold cross validation, measuring ROC-AUC, recall and precision.
 
 **5. Customer Risk Analysis**
 
-Ranked held-out customers by predicted churn probability, identified high-risk groups and evaluated the concentration of actual churners among the 100 highest-risk customers.
+Ranked held out customers by predicted churn probability, identified high risk groups and evaluated the concentration of actual churners among the 100 highest risk customers.
 
 **6. Business Impact Simulation**
 
@@ -62,9 +62,9 @@ Modelled the potential value of a hypothetical retention campaign using assumpti
 | Overall test-set churn rate | 26.54% |
 | Top 100 lift | 2.79× |
 
-Logistic Regression slightly outperformed Random Forest in average cross-validation ROC-AUC (0.846 versus 0.842).
+Logistic Regression slightly outperformed Random Forest in average cross validation ROC-AUC (0.846 versus 0.842).
 
-The model identified 74 actual churners among the 100 highest-risk test customers, resulting in a churn rate approximately 2.79 times the overall test-set rate.
+The model identified 74 actual churners among the 100 highest risk test customers, resulting in a churn rate approximately 2.79 times the overall test-set rate.
 
 ## Feature Importance
 
@@ -80,7 +80,7 @@ Tenure was the strongest predictor in the selected model. Feature importance ref
 
 ## Financial Simulation
 
-A hypothetical campaign targeting the 100 highest-risk customers was evaluated.
+A hypothetical campaign targeting the 100 highest risk customers was evaluated.
 
 | Financial Metric | Estimated Value |
 |---|---:|
